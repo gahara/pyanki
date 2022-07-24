@@ -1,0 +1,43 @@
+h1 {
+    color: #F;
+    font-variant-caps: all-small-caps;
+    font-size: 46px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #6495ED;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    left: 30px;
+}
+
+.veil {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+}
+

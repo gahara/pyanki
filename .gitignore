@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 #local files only
-app/kanji/
+app/static/kanji/
 
 .idea/

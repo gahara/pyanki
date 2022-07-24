@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Flask Shop</title>
+    <link rel="stylesheet" href="/static/styles/random_kanji.css">
+  </head>
+  <body>
+    <h1 class="title">{{message}}</h1>
+    <div style="width: {{img_width}};height:{{img_height}};" class="container">
+      <img class="centered" src="{{kanji}}">
+      <div class="veil" id="veil" onclick="document.querySelector('#veil').style.height = 0" style="height: {{img_height/2}}px;background-color: {{veil}}"></div>
+    </div>
+    <script src="/static/scripts.js" charset="utf-8" ></script>
+  </body>
+</html>
