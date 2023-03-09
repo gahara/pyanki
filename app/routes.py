@@ -20,7 +20,7 @@ def show_kanji():
     random_kanji_image = random.choice(IMAGES_NAMES)
     image_hex_color, img = get_pixel_color(f'{IMAGES_PATH}/{random_kanji_image}')
     width, height = img.size
-    message = KANJI
+    message = 'next kanji is: '
     path_to_image = f'/static/kanji/{random_kanji_image}'
     return render_template(
         'random_kanji.html',
